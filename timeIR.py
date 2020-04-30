@@ -21,6 +21,8 @@ if car[0] == 'یک':
     varShowTodayCar = car[0] + car[1]
 if car[0] == 'شنبه':
     varShowTodayCar = car[0]
+if car[0] == 'جمعه':
+    varShowTodayCar = car[0]    
 varShowDateYear=varShowDateInt[0]
 varShowDateMonth=varShowDateInt[1]
 varShowDateDay=varShowDateInt[2]
