@@ -11,8 +11,8 @@ varShowDateInt = varShowTodayFull.split('/')
 car = varShowTodayFullCar.split(' ')
 if car[0] == 'پنج':
     varShowTodayCar = car[0] + car[1]
-if car[0] == 'چهار':
-    varShowTodayCar = car[0] + car[1]
+if car[0] == 'چهارشنبه':
+    varShowTodayCar = 'چهارشنبه'
 if car[0] == 'سه':
     varShowTodayCar = car[0] + car[1]
 if car[0] == 'دو':
@@ -22,7 +22,7 @@ if car[0] == 'یک':
 if car[0] == 'شنبه':
     varShowTodayCar = car[0]
 if car[0] == 'جمعه':
-    varShowTodayCar = car[0]    
+    varShowTodayCar = car[0]
 varShowDateYear=varShowDateInt[0]
 varShowDateMonth=varShowDateInt[1]
 varShowDateDay=varShowDateInt[2]
